@@ -9,6 +9,7 @@
     --border:.2rem solid var(--black);  
 }
 
+
 *{
     font-family: 'Rubik', sans-serif;
     margin: 0; padding: 0;
@@ -150,3 +151,22 @@ section{
 .header .flex .icons > *:hover{
     color: var(--yellow);
 }
+
+@keyframes fadeIn {
+    0% {
+        transform: translateY(1rem);
+    }
+}
+
+.header .flex .profile {
+    width: 30rem;
+    position: absolute;
+    top: 120%; right: 2rem;
+    background-color: var(--white);
+    border: var(--border);
+    padding: 1.5rem;
+    text-align: center;
+    display: none;
+    animation: fadeIn .2s linear;
+}
+
