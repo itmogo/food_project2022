@@ -170,3 +170,350 @@ section{
     animation: fadeIn .2s linear;
 }
 
+.header .flex .profile .action{
+    display: block;
+}
+
+.header .flex .profile .name {
+    font-size: 1.7rem;
+    margin-bottom: .5rem;
+}
+
+.header .flex .profile .account{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-top: 1.5rem;
+}
+
+.header .flex .profile .account a:hover{
+    color: var(--yellow);
+}
+
+#menu-btn{
+    display: none;
+}
+
+.home .slide{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.home .slide .content{
+    flex: 1 1 40rem;
+    text-align: center;
+}
+
+.home .slide .image{
+    flex: 1 1 40rem;
+}
+
+.home .slide .image img{
+    width: 100%;
+}
+
+.home .slide .content span{
+    font-size: 5rem;
+    text-transform: capitalize;
+    color: var(--black);
+    padding: 1rem 0;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--yellow);
+}
+
+.category .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.category .box-container .box{
+    border: var(--border);
+    padding: 2rem;
+    text-align: center;
+}
+
+.category .box-container .box img{
+    width: 100%;
+    height: 10rem;
+    object-fit: contain;
+}
+
+.category .box-container .box h3{
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.category .box-container .box:hover{
+    background-color: var(--black);
+}
+.category .box-container .box:hover img{
+    filter: invert();
+}
+
+.category .box-container .box:hover h3{
+    color: var(--white);
+}
+
+.products .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 33rem);
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.products .box-container .box{
+    position: relative;
+    border: var(--border);
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.products .box-container .box .fa-eye,
+.products .box-container .box .fa-shopping-cart{
+    position: absolute;
+    top: 1rem;
+    display: block;
+    height: 4.5rem;
+    line-height: 4.3rem;
+    font-size: 2rem;
+    border: var(--border);
+    background-color: var(--white);
+    cursor: pointer;
+    color: var(--black);
+    text-align: center;
+}
+
+.products .box-container .box .fa-eye{
+    left: -10rem;
+}
+.products .box-container .box .fa-shopping-cart{
+    right: -10rem;
+}
+
+.products .box-container .box:hover .fa-eye{
+    left: 1rem;
+}
+
+.products .box-container .box:hover .fa-shopping-cart{
+    right: 1rem;
+}
+
+.products .box-container .box .fa-eye:hover,
+.products .box-container .box .fa-shopping-cart:hover{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.products .box-container .box img{
+    height: 25rem;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 1rem; 
+}
+
+.products .box-container .box .cat{
+    font-size: 1.7rem;
+    color: var(--light-color);
+}
+
+.products .box-container .box .cat:hover{
+    columns: var(--yellow);
+}
+
+.products .box-container .box .name{
+    font-size: 2rem;
+    margin:1rem 0;
+    color:var(--black);
+ }
+
+ .products .box-container .box .flex{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+ }
+ 
+.products .box-container .box .flex .price{
+    margin-right:  auto;
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about css*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
